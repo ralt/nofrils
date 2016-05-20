@@ -129,11 +129,10 @@ hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE 
 hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 
-" Optional Syntax Features
-if g:nofrils_strbackgrounds
-    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
-    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
-end
+" Fork changes
+hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=#A9A9A9 guibg=NONE
+hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=#A9A9A9 guibg=NONE
+
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
 end
